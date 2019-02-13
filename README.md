@@ -5,7 +5,7 @@ Altium Designer library including Schlib,Pcblib,IntLib,Pad Via library,Database 
 
 ## 2. PCB footprint library
 
-## 3. IntLib
+## 3. InitLib
 
 ## 4. Pad Via library
 
