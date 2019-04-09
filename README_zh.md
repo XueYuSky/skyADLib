@@ -1,8 +1,6 @@
-# skyADLib
-
 [README](README.md) | [中文文档](README_zh.md)
 
-Altium Designer library including Schlib,Pcblib,IntLib,Pad Via library,Database library,SVN Database library,Database Link file.
+Altium Designer 设计库主要包括Schlib,Pcblib,IntLib,Pad Via library,Database library,SVN Database library,Database Link 等库文件。
 
 ## 1. Schematic library
 
