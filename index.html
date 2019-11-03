@@ -13,6 +13,8 @@
         <meta name="description" content="雪域蓝天的AD元器件设计库">
       
       
+        <link rel="canonical" href="https://XueYuSky.github.io/skyADLib/">
+      
       
         <meta name="author" content="XueYuSky">
       
@@ -92,7 +94,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="skyADLib" class="md-header-nav__button md-logo">
+        <a href="https://XueYuSky.github.io/skyADLib/" title="skyADLib" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -184,7 +186,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="skyADLib" class="md-nav__button md-logo">
+    <a href="https://XueYuSky.github.io/skyADLib/" title="skyADLib" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -406,12 +408,12 @@
 <p>(7) 继电器</p>
 <p>(8) 集成电路：</p>
 <ul>
-<li>稳压器（三端稳压器、五端稳压器、固定稳压器、可调稳压器、开关集成稳压器）</li>
+<li>线性稳压器（三端稳压器、五端稳压器、固定稳压器、可调稳压器、开关集成稳压器）</li>
 <li>DC/DC变换器</li>
 <li>运算放大器、厚膜电路（电源厚膜电路、功放厚膜电路）</li>
 <li>数字逻辑电路（TTL集成电路、CMOS集成电路）</li>
 <li>A/D、D/A转换电路</li>
-<li>音频电路</li>
+<li>音频</li>
 <li>视频</li>
 <li>专用电路</li>
 <li>（电视机用集成电路、遥控用集成电路、音响用集成电路、影碟机用集成电路）</li>
@@ -470,7 +472,7 @@
 <li>蜂鸣器（压电式蜂鸣器、电磁式蜂鸣器）、</li>
 <li>传声器（动圈式传声器、电容式传声器、驻极体扬声器）</li>
 </ul>
-<p>(17) 敏感器件：</p>
+<p>(17) 敏感器件(分立，模拟)：</p>
 <ul>
 <li>温敏器件（热敏电阻器、温敏二极管、铂电阻元件）</li>
 <li>光敏器件（硅光电池、光敏二极管、光敏三极管）</li>
@@ -480,21 +482,67 @@
 <li>气敏器件</li>
 <li>电压敏感器件（压敏电阻器、瞬态电压抑制二极管）</li>
 </ul>
-<p>(18) 传感器：</p>
+<p>(18) 传统传感器（集成）：</p>
 <ul>
-<li>温度传感器</li>
-<li>紫外线传感器</li>
-<li>光电耦合器</li>
-<li>应变式力传感器</li>
-<li>电感式接近传感器</li>
-<li>磁补偿式电流传感器</li>
-<li>霍尔传感器</li>
-<li>热释电红外传感器</li>
-<li>红外光电开关</li>
+<li>
+<p>温、湿度传感器</p>
+</li>
+<li>
+<p>紫外线传感器</p>
+</li>
+<li>
+<p>光电耦合器</p>
+</li>
+<li>
+<p>应变式力传感器</p>
+</li>
+<li>
+<p>电感式接近传感器</p>
+</li>
+<li>
+<p>磁补偿式电流传感器</p>
+</li>
+<li>
+<p>霍尔传感器</p>
+</li>
+<li>
+<p>热释电红外传感器</p>
+</li>
+<li>
+<p>红外光电开关</p>
+</li>
+</ul>
+<p>(19) 信息时代传感器</p>
+<ul>
+<li>
+<p>加速度传感器</p>
+</li>
+<li>
+<p>陀螺仪（角加速度）</p>
+</li>
+<li>
+<p>地磁传感器</p>
+</li>
+<li>
+<p>脑电传感器</p>
+</li>
+<li>
+<p>肌电传感器</p>
+</li>
+<li>
+<p>激光传感器</p>
+</li>
+<li>
+<p>多线雷达</p>
+</li>
+<li>
+<p>视觉、图像传感器</p>
+</li>
 </ul>
 <h2 id="2-pcb-footprint-library">2. PCB footprint library</h2>
 <p>(1) 常用贴片电阻、电容、电感继承自-<a href="https://gitee.com/JLC_SMT/JLCSMT_LIB">嘉立创元器件库: https://gitee.com/JLC_SMT/JLCSMT_LIB</a></p>
 <h2 id="3-initlib">3. InitLib</h2>
+<p><strong>0A</strong>：0A-SkyMiscellaneous 综合常用集成库</p>
 <p>(1) 常用贴片电阻、电容、电感继承自-<a href="https://gitee.com/JLC_SMT/JLCSMT_LIB">嘉立创元器件库: https://gitee.com/JLC_SMT/JLCSMT_LIB</a></p>
 <h2 id="4-pad-via-library">4. Pad Via library</h2>
 <p>常用的标准化过孔，主要分三类：
