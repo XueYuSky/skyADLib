@@ -2,6 +2,8 @@
 # AISkyLab
 # 雪域蓝天
 # 2020
+
+# coding=utf-8
 import os
 
 # os.getcwd()可以查看py文件所在路径： 返回的是用于返回当前工作目录。
