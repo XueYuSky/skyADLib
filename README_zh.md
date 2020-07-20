@@ -15,3 +15,11 @@ Altium Designer 设计库主要包括Schlib,Pcblib,IntLib,Pad Via library,Databa
 ## 6. SVN Database library
 
 ## 7. Database Link file
+
+
+
+在此库的基础上设计前，请参考我的PCB元器件库层叠设置规则。
+
+http://xueyusky.cn/?hardware/26.html
+
+推荐按照此规则进行层叠设置，便于规范化设计。

@@ -17,3 +17,9 @@ Altium Designer library including Schlib,Pcblib,IntLib,Pad Via library,Database 
 ## 6. SVN Database library
 
 ## 7. Database Link file
+
+
+
+Please refer to the rules of how to set layers of PCB footprint library.
+
+http://xueyusky.cn/?hardware/26.html
